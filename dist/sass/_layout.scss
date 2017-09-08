@@ -1,0 +1,12 @@
+//до адаптива не успел током дойти
+@media (max-width: 1130px) {
+  .range {
+    flex-direction: column;
+    .mainBlocks + .mainBlocks {
+      margin-top: 3%;
+    }
+    & + .range {
+      margin-top: 3%;
+    }
+  }
+}
